@@ -244,3 +244,92 @@ h6 {
   letter-spacing: 1px;
   border-bottom: 3px solid #66afa9;
 }
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+section{
+  padding: 60px 0;
+  overflow: hidden;
+}
+.section-bg{
+  background: #b2ceff;
+}
+.section-title {
+  padding-bottom: 30px;
+}
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #173b6c;
+  font-family: "Spicy Rice", serif;
+}
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 0;
+}
+.section-title p {
+  margin-bottom: 0;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+
+.about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #173b6b;
+}
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+.about .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.about .content ul strong {
+  margin-right: 10px;
+  color: #303030;
+  font-weight: 200;
+}
+.about.content ul span {
+  color: #111111;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.about .content{
+  color: #10294b;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.about .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #149ddd;
+  line-height: 0;
+}
