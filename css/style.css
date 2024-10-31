@@ -279,7 +279,7 @@ section{
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #66afa9;
   font-family: "Spicy Rice", serif;
 }
 .section-title h2::after {
@@ -288,7 +288,7 @@ section{
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #000000;
   bottom: 0;
   left: 0;
 }
@@ -301,7 +301,7 @@ section{
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6b;
+  color: #66afa9;
 }
 .about .content ul {
   list-style: none;
@@ -318,12 +318,12 @@ section{
   font-weight: 200;
 }
 .about.content ul span {
-  color: #111111;
+  color: #000000;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
 }
 .about .content{
-  color: #10294b;
+  color: #66afa9;
   font-family: "Poppins";
   font-weight: 600;
 }
